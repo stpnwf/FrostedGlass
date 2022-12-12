@@ -1,7 +1,10 @@
 /*This file contains color and style changes for the colorful theme type*/
-:root {--accent: 98, 121, 205;}
+:root {--accent: 187, 241, 221;}
 :root {--indicator: var(--accent);}
 :root {--selection: var(--accent);}
+
+:root {--Zblack: 27, 36, 33;}
+
 
 .dialog,
 .mainDrawer,
@@ -51,7 +54,7 @@
 }
 
 .navMenuOption-selected {
-  color: white;
+  color: var(--Zblack);
 }
 
 .subtitleappearance-preview {
@@ -83,7 +86,7 @@ body, h1, h2, h3, h4, .textActionButton, .emby-button-foreground  {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .navMenuOption-selected {
-    color: white;
+    color: var(--Zblack);
 }
 progress {
     background: rgba(0, 0, 0, 0.5) !important;
