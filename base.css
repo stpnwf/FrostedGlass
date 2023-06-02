@@ -6,6 +6,11 @@
   font-size: 10pt;
 }
 
+.card.show-animation:focus>.cardBox {
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
 /*Theme user setting tab buttons*/
 div[data-role="controlgroup"] a.ui-btn-active {
   background: rgba(0, 0, 0, 0.5) !important;
@@ -24,10 +29,14 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .layout-mobile .adminDrawerLogo {
     border-bottom: none;
 }
+.layout-mobile .itemBackdrop {
+    margin-top: 4rem;
+}
 
 /*Stop covers from being scrolled on desktop*/
 .layout-desktop .detailImageContainer .card {
     position: fixed !important;
+    top: 10% !important;
 }
 .layout-mobile .detailImageContainer .card {
     position: absolute !important;
@@ -186,10 +195,6 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .button-flat:hover {
 	background: rgba(0, 164, 220, 0.2);
 	color: #00a4dc !important;
-}
-.button-flat {
-    margin: .2em !important;
-    padding: .85em !important;
 }
 .dashboardSection h3 {
     margin: .5em .0em .5em .5em;
