@@ -18,25 +18,26 @@
   font-size: 1.6em !important;
 }
 
-/* Will this remove the compact layout?
+/* Will this remove the compact layout?*/
 @media all and (min-width: 100em){
   .listItemImage.listItemImage-large.itemAction.lazy {
-    height: 110px;
+    height: 190px;
+    width: 338px;
   }
   .listItem-content {
-    height: 115px;
-  }
-  .secondary.listItem-overview.listItemBodyText {
-    height: 4em; 
-    margin: 0;
+    height: 200px;
   }
 }
 @media all and (max-width: 100em){
-  .listItemImage.listItemImage-large.itemAction.lazy {height: 80px;}
-  .listItem-content {height: 85px;}
-  .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
+  .listItemImage.listItemImage-large.itemAction.lazy {
+    height: 190px;
+    width: 338px;
+  }
+  .listItem-content {
+    height: 200px;
+  }
 }
-*/
+
 .missingIndicator, .unairedIndicator {
     background: #b82d3d;
     padding: .3em .6em;

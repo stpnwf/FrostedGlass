@@ -21,6 +21,7 @@
 
 :root {--Zblack: 27, 36, 33;}
 :root {--Zblack-dark: 21, 28, 25;}
+:root {--jade-green: 0, 172, 111;}
 :root {--honey-yellow: 255, 194, 85;}
 :root {--cherry-red: 212, 51, 83;}
 
@@ -56,4 +57,27 @@
 
 .headerTop {
   background: transparent !important;
+}
+
+.skinHeader {
+  background-color: transparent !important;
+}
+
+.playstatebutton-icon-played {
+  color: rgba(var(--jade-green), 1) !important;
+}
+
+
+.navMenuOption-selected, .selectionCommandsPanel {
+  color: rgba(var(--Zblack-dark), 1) !important;
+  background-color: rgba(var(--accent), 0.9) !important;
+}
+
+.navMenuOption:hover,
+.actionSheetMenuItem:hover {
+  color: rgba(var(--Zblack-dark), 1) !important;
+}
+
+#dashboardPage .cardContent, #dashboardPage .sessionNowPlayingInnerContent {
+  color: rgba(var(--Zblack-dark), 1) !important;
 }
