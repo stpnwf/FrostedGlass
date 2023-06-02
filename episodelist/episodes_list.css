@@ -30,11 +30,14 @@
 }
 @media all and (max-width: 100em){
   .listItemImage.listItemImage-large.itemAction.lazy {
-    height: 190px;
-    width: 338px;
-  }
+    height: 80px;
+    }
   .listItem-content {
-    height: 200px;
+    height: 85px;
+    }
+  .secondary.listItem-overview.listItemBodyText {
+    height: 2.5em; 
+    margin: 0;
   }
 }
 
