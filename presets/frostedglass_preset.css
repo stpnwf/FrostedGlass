@@ -16,7 +16,7 @@
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/effects/glassy.css');
 
 
-
+:root {--accent: 187, 241, 221;}
 :root {--rounding: 12px;}
 
 /*Style backdrop*/
