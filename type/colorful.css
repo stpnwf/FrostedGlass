@@ -3,8 +3,6 @@
 :root {--indicator: var(--accent);}
 :root {--selection: var(--accent);}
 
-:root {--Zblack: 27, 36, 33;}
-
 
 .dialog,
 .mainDrawer,

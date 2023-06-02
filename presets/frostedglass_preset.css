@@ -18,9 +18,42 @@
 
 
 :root {--accent: 187, 241, 221;}
+
+:root {--Zblack: 27, 36, 33;}
+:root {--Zblack-dark: 21, 28, 25;}
+:root {--honey-yellow: 255, 194, 85;}
+:root {--cherry-red: 212, 51, 83;}
+
+
 :root {--rounding: 12px;}
 
 /*Style backdrop*/
 .backdropImage {
   filter: blur(18px) saturate(120%) contrast(120%) brightness(40%) !important;
+}
+
+.starIcon {
+    color: rgba(var(--honey-yellow), 0.8);
+}
+
+.ratingbutton-icon-withrating {
+  color: rgba(var(--cherry-red), 1) !important;
+}
+
+.innerCardFooter, .countIndicator, .playedIndicator {
+  background: rgba(var(--accent), 0.8) !important;
+  color: rgba(var(--Zblack-dark), 1) !important;
+}
+
+.raised, .fab, a[data-role="button"] {
+  background: rgba(var(--accent), 0.8) !important;
+  color: rgba(var(--Zblack-dark), 1) !important;
+}
+
+.raised:hover, .fab:hover, a[data-role="button"]:hover {
+  background: rgba(var(--accent), 0.9) !important;
+}
+
+.headerTop {
+  background: transparent !important;
 }
