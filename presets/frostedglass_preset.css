@@ -4,16 +4,18 @@
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/accentlist.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/rounding.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/smallercast.css');
-@import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/episodelist/episodes_list.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/header/header_transparent-dashboard.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/login/login_frame.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/fields/fields_noborder.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/cornerindicator/indicator_corner.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/type/colorful.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/titlepage/title_simple-logo.css');
-@import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/overlayprogress.css');
+/* @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/progress/floating.css'); */
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/effects/hoverglow.css');
 @import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/effects/glassy.css');
+@import url('https://cdn.jsdelivr.net/gh/stpnwf/FrostedGlass/episodelist/episodes_list.css');
+@import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/round.css');
+/* @import url('https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/solid.css'); */
 
 
 :root {--accent: 187, 241, 221;}
