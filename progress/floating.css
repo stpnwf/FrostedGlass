@@ -35,3 +35,10 @@
     background: rgba(128, 128, 128, 0.55) !important;
   }
 }
+
+@media all and (max-width: 100em){
+  #indexPage .itemProgressBar,
+  #itemDetailPage .itemProgressBar {
+      margin: 0.65em 0.75em;
+  }
+}
