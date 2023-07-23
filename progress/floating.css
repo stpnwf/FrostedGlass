@@ -35,10 +35,11 @@
     background: rgba(128, 128, 128, 0.55) !important;
   }
 }
-/*Trying to move progress bar in mobile*/
+/*Trying to move progress bar in mobile - didn't work :/
 @media all and (max-width: 100em){
   #indexPage .itemProgressBar,
   #itemDetailPage .itemProgressBar {
       margin: 0.65em 0.75em;
   }
 }
+*/
